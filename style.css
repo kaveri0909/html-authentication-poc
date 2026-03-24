@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    min-height: 100vh;
+}
+
+/* Centering container */
+.auth-container {
+    min-height: 100vh;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #4e73df;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #2e59d9;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #1cc88a;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
